@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <h1 style="margin-top: 50px;">SᕼᓰᗱᑘSᘿᐺᘿᘻ</h1>
+    <div class="divBase" id="Login">
+        <h2>Login</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="user">User</label>
+                <input type="text" name="user" autocomplete="username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" autocomplete="email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" autocomplete="current-password">
+            </div>
+
+        </form>
+        <button class="btSubmit">Enviar</button>
+        <button class="ChangeMode" onclick="changeMode()">
+            <div class="ToMode">
+                <p>Cadastrar</p>
+            </div>
+
+        </button>
+    </div>
+
+    <div class="divBase" id="Register">
+        <h2>Register</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="user">User</label>
+                <input type="text" id="user" name="user">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div class="form-group">
+                <label for="senha">Seu NickName !!</label>
+                <input type="text" name="senha" autocomplete="nickname">
+            </div>
+        </form>
+        <button class="btSubmit">Enviar</button>
+        <button class="ChangeMode" onclick="changeMode()">
+            <div class="ToMode">
+                <p>Cadastrar</p>
+            </div>
+
+        </button>
+    </div>
+
+
+    <script src="/static/js/index.js"></script>
+</body>
+
+
+</html>
